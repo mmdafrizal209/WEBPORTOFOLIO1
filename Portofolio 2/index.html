@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navigasi" role="navigation" aria-label="Navigasi Utama">
+    <div class="logo">
+      <h2>Biodataku</h2>
+    </div>
+    <nav class="menu" aria-label="Menu Navigasi">
+      <ul>
+        <li><a href="#Hai" class="nav-link active" aria-current="page">Hai</a></li>
+        <li><a href="#Pendidikan" class="nav-link">Pendidikan</a></li>
+        <li><a href="#Softskil" class="nav-link">Softskil</a></li>
+        <li><a href="#Kontak" class="nav-link">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner section" id="Hai" tabindex="-1" aria-label="Bagian Selamat Datang">
+      <img src="gambar/saitama.jpg" alt="Foto Saitama" />
+      <h1>Hai... <span id="animated-text">Selamat Datang</span></h1>
+      <p>Salam Hangat Dari Saya Dan Semoga Kamu Sehat Selalu</p>
+      <button id="selengkapnya-btn" type="button" aria-label="Tombol Selengkapnya">Selengkapnya</button>
+    </section>
+
+    <section class="box-pendidikan section" id="Pendidikan" aria-label="Bagian Pendidikan">
+      <h1 class="section-title">Riwayat Pendidikan</h1>
+      <div class="box-container">
+        <article class="box-kiri">
+          <h3>Sekolah Dasar</h3>
+          <img src="Gambar/sd 1.jpg" alt="Gedung Sekolah Dasar" />
+          <p>Saya Bersekolah Alamat SD Negeri Sayangheulang adalah Jl. Dr. Muwardi, Bojongherang, Kec. Cianjur, Kab. Cianjur, Jawa Barat.</p>
+        </article>
+        <article class="box-tengah">
+          <h3>Sekolah Menengah Pertama</h3>
+          <img src="Gambar/smp.jpg" alt="Gedung Sekolah Menengah Pertama" />
+          <p>Saya Bersekolah Alamat SMP Negeri 2 Cianjur adalah Jalan Siliwangi No. 104, Sawah Gede, Cianjur, Jawa Barat. </p>
+        </article>
+        <article class="box-kanan">
+          <h3>Sekolah Menengah Kejurusan</h3>
+          <img src="Gambar/SMK.jpg" alt="Gedung Sekolah Menengah Kejurusan" />
+          <p>Saya Bersekolah Alamat SMK Negeri 1 Cianjur Jl. Siliwangi No.41, Sawah Gede, Kec. Cianjur, Kabupaten Cianjur, Jawa Barat 43212.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="box-softskil section" id="Softskil" aria-label="Bagian Softskill">
+      <h1 class="section-title">Softskil</h1>
+      <div class="box-container">
+        <article class="box-kiri">
+          <h3>SEO Optimization</h3>
+          <img src="Gambar/se.jpg" alt="Ilustrasi SEO Optimization" />
+          <p>SEO, yang merupakan singkatan dari Search Engine Optimization, adalah serangkaian teknik dan praktik yang digunakan untuk meningkatkan visibilitas website atau konten di hasil pencarian mesin pencari seperti Google.</p>
+        </article>
+        <article class="box-tengah">
+          <h3>App Development</h3>
+          <img src="Gambar/app.jpg" alt="Ilustrasi Pengembangan Aplikasi" />
+          <p>App development adalah proses pembuatan perangkat lunak atau aplikasi yang dirancang khusus untuk dijalankan pada perangkat seluler (smartphone dan tablet).</p>
+        </article>
+        <article class="box-kanan">
+          <h3>Web Design</h3>
+          <img src="Gambar/design.jpg" alt="Ilustrasi Desain Web" />
+          <p>Web designer adalah seseorang yang bertanggung jawab untuk mendesain tampilan visual dan antarmuka pengguna sebuah website.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="box-kontak section" id="Kontak" tabindex="-1" aria-label="Bagian Kontak">
+      <h1 class="section-title">Hubungi Kontak</h1>
+      <img src="Gambar/kontak.png" alt="Ikon Kontak" />
+      <h2>083805026759</h2>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>Copyright : Moch Afrizal Permana Harun</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
